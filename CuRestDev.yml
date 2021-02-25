@@ -2,7 +2,7 @@ spring:
   application:
     name: CuRestDev
   datasource:
-    url: jdbc:db2://10.10.52.131:55000/equivida   
+    url: jdbc:db2://10.10.52.32:55500/equivida 
 
 server:
   port: 8083
