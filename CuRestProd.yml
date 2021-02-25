@@ -1,22 +1,15 @@
 spring:
   application:
-    name: CuRestProd
-
-server:
-  port: 8083
-
-spring:
+    name: CuRestDev
   datasource:
-    url: jdbc:db2://10.10.52.32:55500/equivida
+    url: jdbc:db2://10.10.52.131:55000/equivida 
     username: usuario
     password: user_desa
     driver-class-name: com.ibm.db2.jcc.DB2Driver
-  jpa:
-    hibernate:
-      ddl-auto: none
-    show-sql: false
+    
     
 server:
+  port: 8085
   servlet:
     context-path: /cu-rest
 
