@@ -1,7 +1,13 @@
 spring:
   application:
     name: CuRestDev
-
+  datasource:
+    url: jdbc:db2://10.10.52.131:55000/equivida 
+    username: usuario
+    password: user_desa
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    
+    
 server:
   port: 8083
 
